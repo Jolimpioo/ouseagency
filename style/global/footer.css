@@ -1,3 +1,32 @@
 .footer-bg {
   background-color: var(--cor-p1);
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: var(--cor-p3);
+  position: absolute;
+  bottom: -40px;
+}
+
+.footer-contato {
+  margin-left: 40px;
+}
+
+.footer-logo {
+  place-content: center;
+  align-self: center;
+  place-self: center;
+}

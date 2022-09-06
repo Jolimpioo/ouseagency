@@ -1,0 +1,29 @@
+.main-bg {
+  background: url(../../img/Camada\ 25.png);
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  display: inline-block;
+  padding: 4px 16px;
+  background: var(--cor-p3);
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--cor-p1);
+  font: 600 1.125rem/1.35 'Poppins', sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: var(--cor-p4);
+}

@@ -1,0 +1,39 @@
+.contato {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+}
+
+.contato-conteudo {
+  place-content: center;
+  align-self: center;
+  place-self: center;
+  margin-bottom: 80px;
+}
+
+.contato-conteudo span {
+  display: inline-block;
+  color: var(--cor-p3);
+  background: var(--cor-p1);
+  padding: 0 8px;
+  margin-left: -8px;
+}
+
+.contato-conteudo p {
+  display: inline-block;
+  background: var(--cor-p1);
+  border-radius: 20px;
+  padding: 1px 16px;
+  margin-left: -8px;
+}
+
+.contato-formulario {
+  background: var(--cor-p1);
+  max-width: fit-content;
+  place-content: center;
+  align-self: center;
+  place-self: center;
+  padding: 36px 24px;
+  border-radius: 28px;
+  box-shadow: 0 12px 1em var(--cor-7);
+  margin-bottom: 80px;
+}
