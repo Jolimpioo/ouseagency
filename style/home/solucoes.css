@@ -1,32 +1,28 @@
 .solucoes {
   display: grid;
-  grid-template-columns: 5fr 7fr;
-  padding-top: 140px;
-  padding-bottom: 60px;
-  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  padding-bottom: 120px;
+  gap: 0 40px;
 }
 
 .solucoes-imagem {
-  display: grid;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  grid-area: 2;
+  grid-row: 2 / 4;
 }
 
 .solucoes-imagem img {
-  grid-area: 1/1;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }
 
-.solucoes-conteudo {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-content: start;
-}
-
-.solucoes-conteudo h3 {
+.solucoes-sub-titulo {
+  grid-area: 1/2;
   text-transform: uppercase;
 }
 
-.solucoes-conteudo h3::before {
+.solucoes-sub-titulo h3::before {
   content: '';
   display: block;
   width: 120px;
@@ -36,18 +32,24 @@
   margin-bottom: 8px;
 }
 
+.solucoes-conteudo {
+  grid-area: 2;
+}
+
 .solucoes-conteudo h2 {
   color: var(--cor-p1);
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 
 .solucoes-conteudo p {
   margin-bottom: 20px;
-  max-width: 32ch;
+  padding-right: 20px;
+  max-width: 50ch;
 }
 
 .caixa {
+  grid-area: 3/2;
+  height: fit-content;
   max-width: fit-content;
   background-color: var(--cor-p1);
   box-shadow: 4px 4px var(--cor-p3);
@@ -58,8 +60,9 @@
 }
 
 .caixa p {
-  margin-left: 8px;
+  padding-left: 8px;
   margin-bottom: 0;
+  max-width: 22ch;
 }
 
 .caixa-detalhe {
@@ -75,4 +78,59 @@
   background-color: var(--cor-p3);
   margin-top: 2px;
   position: absolute;
+}
+
+@media (max-width: 1050px) {
+  .solucoes {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .solucoes {
+    grid-template-rows: repeat(4, auto);
+    padding-bottom: 100px;
+  }
+  .solucoes-sub-titulo {
+    grid-area: 1;
+    padding-left: 72px;
+    margin-bottom: 8px;
+  }
+  .solucoes-imagem {
+    grid-area: 2;
+  }
+  .solucoes-imagem img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .solucoes-conteudo {
+    padding: 0 40px;
+    grid-area: 3;
+    place-self: center;
+    text-align: center;
+  }
+  .solucoes-conteudo p {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .caixa {
+    grid-area: 4;
+    place-self: center;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-left: 0px;
+  }
+  .caixa p {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .solucoes-sub-titulo {
+    padding-left: 40px;
+  }
+  .solucoes-conteudo h2 {
+    margin-left: 0;
+  }
 }

@@ -11,7 +11,7 @@
   font: 400 1rem/1.5 'Poppins', sans-serif;
   background: var(--cor-0);
   border: 1px solid var(--cor-p2);
-  padding: 8px;
+  padding: 8px 20px;
   border-radius: 16px;
   width: 100%;
   box-sizing: border-box;

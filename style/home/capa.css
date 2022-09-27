@@ -1,5 +1,6 @@
 .capa-bg {
-  background: url(../../img/papel.jpg);
+  background: url(../../img/camada-papel2.png) no-repeat;
+  background-size: cover;
   opacity: 0.7;
   width: 100%;
   height: 100%;
@@ -11,7 +12,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(auto, auto);
-  padding-top: 20px;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 162px;
   position: relative;
   z-index: 1;
 }
@@ -39,9 +41,10 @@
 }
 
 .capa-detalhe {
+  height: 225px;
   position: absolute;
   margin-top: 50px;
-  margin-left: -50px;
+  margin-left: -109px;
 }
 
 .capa::before {

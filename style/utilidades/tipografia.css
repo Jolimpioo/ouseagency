@@ -1,3 +1,4 @@
+/* copy */
 .font-1-xs {
   font: 400 0.75rem/1.35 'Poppins', sans-serif;
 }
@@ -6,26 +7,46 @@
   font: 400 1rem/1.5 'Poppins', sans-serif;
 }
 
+/* p - 'sobre' */
 .font-1-m {
   font: 400 1.125rem/1.35 'Poppins', sans-serif;
 }
 
+/* header */
+.font-1-mh {
+  font: 800 1.125rem/1.35 'Poppins', sans-serif;
+}
+
+/* p */
 .font-1-ml {
   font: 400 1.125rem/1.5 'Poppins', sans-serif;
 }
 
+/* frases */
+.font-1-mlsb {
+  font: 700 1.125rem/1.5 'Poppins', sans-serif;
+}
+
+/* frases */
 .font-1-mlb {
   font: 800 1.125rem/1.5 'Poppins', sans-serif;
 }
 
+/* h3 */
 .font-1-l {
   font: 400 1.2rem/1.5 'Poppins', sans-serif;
+}
+
+/* frases */
+.font-1-lb {
+  font: 800 1.25rem/1.5 'Poppins', sans-serif;
 }
 
 .font-1-xl {
   font: 800 2.25rem/1.12 'Poppins', sans-serif;
 }
 
+/* h2 */
 .font-1-xxl {
   font: 800 2.5rem/1.35 'Poppins', sans-serif;
 }

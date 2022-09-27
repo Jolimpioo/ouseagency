@@ -31,3 +31,7 @@ img {
   height: auto;
   display: block;
 }
+
+.main-bg {
+  background: url(../../img/camada-efeito.png);
+}

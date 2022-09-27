@@ -19,7 +19,8 @@
 }
 
 .header img {
-  max-width: 50%;
+  max-width: 35%;
+  margin-left: 40px;
 }
 
 .header-menu {

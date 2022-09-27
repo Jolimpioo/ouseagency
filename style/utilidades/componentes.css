@@ -1,12 +1,6 @@
-.main-bg {
-  background: url(../../img/Camada\ 25.png);
-}
-
 .container {
   box-sizing: border-box;
   max-width: 1400px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
