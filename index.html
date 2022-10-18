@@ -31,6 +31,7 @@
     <section class="capa container">
       <div class="capa-bg"></div>
       <img class="capa-foto" src="./img/capa/fullcapa.png" alt="">
+      <img class="capa-foto2" src="./img/capa/fullcapa2.png" alt="">
     </section>
     <section class="introducao container">
       <div class="introducao-imagem">
@@ -116,17 +117,17 @@
         <p class="font-1-mlsb cor-p3">Vamos trocar essa ideia?</p>
       </div>
       <div class="contato-formulario" aria-label="Formulário">
-        <form class="form" action="">
+        <form class="form" action="mailto:jolimpiomeloj@gmail.com" method="POST" enctype="text/plain">
           <div>
-            <input type="text" id="nome" name="nome" placeholder="seu nome">
+            <input type="text" id="nome" name="nome" placeholder="seu nome" required>
           </div>
           <div>
-            <input type="email" id="email" name="email" placeholder="seu e-mail">
+            <input type="email" id="email" name="email" placeholder="seu e-mail" required>
           </div>
           <div>
-            <textarea name="mensagem" id="mensagem" rows="5" placeholder="qual a tua ideia?"></textarea>
+            <textarea name="mensagem" id="mensagem" rows="5" placeholder="qual a tua ideia?" required></textarea>
           </div>
-          <button class="botao" type="button">enviar</button>
+          <button class="botao" type="submit" value="enviar">enviar</button>
         </form>
         <img class="contato-detalhe" src="./img/home/x.svg" alt="">
       </div>

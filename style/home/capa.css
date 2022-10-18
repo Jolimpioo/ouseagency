@@ -50,7 +50,7 @@
   bottom: -40px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 }
 
 .capa {
@@ -67,4 +67,33 @@
   place-self: center;
   height: auto;
   width: 100%;
+}
+.capa-foto2 {
+  display: none;
+  place-self: center;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .capa {
+    padding: 2px 0 0 8px;
+    margin-bottom: 142px;
+  }
+  .capa::before {
+    height: 32px;
+    bottom: -32px;
+  }
+  .capa-foto {
+    display: none;
+  }
+  .capa-foto2 {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .capa {
+    margin-bottom: 122px;
+  }
 }
