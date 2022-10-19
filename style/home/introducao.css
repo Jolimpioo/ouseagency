@@ -27,7 +27,6 @@
   width: 120px;
   height: 6px;
   background-color: var(--cor-p3);
-  margin-top: -6px;
   margin-bottom: 8px;
 }
 
@@ -135,5 +134,21 @@
   .frase2 {
     padding: 0 40px;
     text-align: center;
+  }
+}
+@media (max-width: 355px) {
+  .introducao-caixa {
+    border-top: 108px solid var(--cor-p1);
+  }
+  .frase1 {
+    top: -108px;
+  }
+}
+@media (max-width: 290px) {
+  .introducao-caixa {
+    border-top: 136px solid var(--cor-p1);
+  }
+  .frase1 {
+    top: -136px;
   }
 }

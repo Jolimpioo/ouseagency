@@ -48,9 +48,9 @@
     overflow-y: hidden;
   }
   #nav.active #menu {
-    height: calc(100vh - 70px);
+    height: calc(50vh - 70px);
     visibility: visible;
-    /* overflow-y: auto; */
+    overflow-y: auto;
     /*habilitar o overflow caso o menu tenha mais itens para criar uma barra de rolage*/
   }
   #menu a {
@@ -58,6 +58,7 @@
     margin: 0 1rem;
     border-bottom: 2px solid var(--cor-0);
   }
+
   #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;

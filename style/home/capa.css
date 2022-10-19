@@ -8,38 +8,6 @@
   z-index: -1;
 }
 
-/* .capa {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-rows: minmax(auto, auto);
-  padding: 20px 20px 0 20px;
-  margin-bottom: 162px;
-  position: relative;
-  z-index: 1;
-}
-
-.capa h1 {
-  position: absolute;
-  grid-column: 1 / 3;
-  place-self: start;
-  align-items: end;
-  align-self: end;
-  margin-left: 40px;
-  margin-bottom: 20px;
-}
-
-.capa h1 span {
-  background-color: var(--cor-p1);
-  padding: 0 12px;
-  line-height: 60px;
-}
-
-.capa-foto {
-  grid-column: -1;
-  place-self: end;
-  max-width: 600px;
-} */
-
 .capa::before {
   content: '';
   display: block;
@@ -48,9 +16,6 @@
   background: var(--cor-p3);
   position: absolute;
   bottom: -40px;
-}
-
-@media (max-width: 800px) {
 }
 
 .capa {
@@ -64,6 +29,7 @@
 }
 
 .capa-foto {
+  display: block;
   place-self: center;
   height: auto;
   width: 100%;
